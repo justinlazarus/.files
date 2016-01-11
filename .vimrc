@@ -18,14 +18,20 @@ filetype plugin on
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Editing
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set tabstop=4
-set softtabstop=4
+set autoindent
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
+set list!
+set listchars=tab:▸\ ,eol:¬ 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " UI Config
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set number
+set noshowmode
+set nowrap
 set cursorline
 set colorcolumn=80
 set showcmd
@@ -41,3 +47,5 @@ set statusline+=%F
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set incsearch
 set hlsearch
+set smartcase
+
